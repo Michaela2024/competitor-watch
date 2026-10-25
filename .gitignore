@@ -1,4 +1,19 @@
+# API credentials and environment
 .env
+.env.*
+!.env.example
 venv/
+.venv/
+
+# Python generated files
 __pycache__/
 *.pyc
+
+# Local SQLite database
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Streamlit local configuration
+.streamlit/secrets.toml

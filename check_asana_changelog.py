@@ -36,7 +36,8 @@ def get_asana_changelog():
                 "date": current_month,
                 "tier": tier.strip(),
                 "title": feature.strip(),
-                "description": description.strip()
+                "description": description.strip(),
+                "link":url
             })
 
     return entries
